@@ -1674,3 +1674,8 @@ textarea {
     }
 
 }
+
+/* Texto do botão "Ver Projeto" */
+.ver-projeto {
+    color: #FFE575
+}
