@@ -1,22 +1,21 @@
 
 :root {
-    --cta: linear-gradient(94.87deg, #00B2FF 11.65%, #FF2CDF 98.86%);
-    --fundo: #090909;
+    --cta: #1E4C71;
+    --fundo: #e0e0e0;
     --preto: #000000;
     --branco: #ffffff;
     --branco-70: rgba(255, 255, 255, 0.7);
     --branco-80: rgba(255, 255, 255, 0.8);
     --branco-90: rgba(255, 255, 255, 0.9);
-    --branco-50: rgba(255, 255, 255, 0.5);
+    --branco-50: rgba(255, 255, 255, 0.884);
     --sombra: rgba(89, 146, 171, 0.1);
-    --azul: #00b2ff;
-    --rosa: #ff2cdf;
     --fundo-perfil: linear-gradient(11.35deg, #00b3ffb7 28.23%, rgba(255, 44, 223, 0.648) 83.2%);
     /* --fundo-perfil: linear-gradient(11.35deg, #00B2FF 28.23%, rgba(255, 44, 223, 0.05) 83.2%); */
     --fundo-perfil-inver: linear-gradient(rgba(255, 44, 223, 0.05) 83.2%, 11.35deg, #00B2FF 28.23%);
-    --cinza: #fafafa;
+    --cinza: #7c7c7c;
     --azul60: rgba(0, 178, 255, 0.8);
     --azul20: rgba(0, 178, 255, 0.2);
+    --azul10: rgba(14, 23, 43, 0.952);
     --cinza-place: #a6a6a6;
     --vermelho: #EE3030;
 }
@@ -46,20 +45,21 @@ section {
     gap: 20px;
 }
 h1 {
-    color: var(--branco);
-    font-size: 45px;
+    color: var(--azul10);
+    font-size: 30px;
     font-family: 'Montserrat';
     font-weight: bold;
 }
 h2 {
-    color: var(--branco-50);
-    font-size: 24px;
+    color: var(--cinza);
+    font-size: 18px;
     font-family: 'Montserrat';
     font-weight: bold;
 }
 
 a {
     background: var(--cta);
+    color: var(--branco-50);
     border-radius: 15px;
     padding: 20px 40px;
     margin-top: 20px;

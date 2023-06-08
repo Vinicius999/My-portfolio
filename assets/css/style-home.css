@@ -595,13 +595,14 @@ h2 {
 }
 
 .desativo {
-    background: rgba(220, 220, 220, 0.3);;
+    background: rgba(199, 199, 199, 0.3);;
     box-shadow: none;
     border: 1px solid transparent;
     color: rgba(71, 73, 81, 0.782);;
 }
 .desativo:hover {
-    background: rgba(116, 116, 116, 0.3);;
+    background: var(--fundo2);
+    color: var(--azul);
 }
 
 .proj-projetos1 {
