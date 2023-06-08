@@ -595,13 +595,13 @@ h2 {
 }
 
 .desativo {
-    background: none;
+    background: rgba(220, 220, 220, 0.3);;
     box-shadow: none;
     border: 1px solid transparent;
-    color: var(--branco-70);
+    color: rgba(71, 73, 81, 0.782);;
 }
 .desativo:hover {
-    background: var(--branco-30);
+    background: rgba(116, 116, 116, 0.3);;
 }
 
 .proj-projetos1 {
