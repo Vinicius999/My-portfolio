@@ -598,7 +598,7 @@ h2 {
 .desativo {
     background: rgba(182, 182, 182, 0.367);;
     box-shadow: none;
-    border: 1px solid transparent;
+    border: none;
     color: rgba(71, 73, 81, 0.925);;
 }
 .desativo:hover {
