@@ -18,6 +18,7 @@
     --azul10: rgba(14, 23, 43, 0.952);
     --cinza-place: #a6a6a6;
     --vermelho: #EE3030;
+    --amarelo: #FFE575;
 }
 body {
     background: var(--fundo);
@@ -59,11 +60,11 @@ h2 {
 
 a {
     background: var(--cta);
-    color: var(--branco-50);
+    color: var(--amarelo);
     border-radius: 15px;
     padding: 20px 40px;
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Montserrat';
     font-weight: bold;
     width: 100%;

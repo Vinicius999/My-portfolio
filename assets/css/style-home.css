@@ -29,6 +29,7 @@
     --cinza: #fafafa;
 
     --azul60: #1e4c7199;
+    --azul40: #1e4c715d;
     --azul20: rgba(30, 76, 113, 0.2);
     
     --cinza-place: #a6a6a6;
@@ -595,14 +596,16 @@ h2 {
 }
 
 .desativo {
-    background: rgba(199, 199, 199, 0.3);;
+    background: rgba(182, 182, 182, 0.367);;
     box-shadow: none;
     border: 1px solid transparent;
-    color: rgba(71, 73, 81, 0.782);;
+    color: rgba(71, 73, 81, 0.925);;
 }
 .desativo:hover {
     background: var(--fundo2);
     color: var(--azul);
+    border: 1px solid var(--azul40);
+    border-radius: 15px;
 }
 
 .proj-projetos1 {
